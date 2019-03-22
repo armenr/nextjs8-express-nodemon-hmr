@@ -1,0 +1,14 @@
+{
+  "verbose": false,
+  "ignore": [
+    "./.next",
+    "./frontend",
+    "./components",
+    "./pages",
+    ".gitignore",
+    ".env.dist",
+    ".env.docker",
+    ".env.docker.dist",
+    "./node_modules"
+  ]
+}

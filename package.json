@@ -1,0 +1,29 @@
+{
+  "name": "gruv-next",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "setup": "npm install && (cp -n .env.dist .env || true) && (cp -n .env.docker.dist .env.docker || true)",
+    "dev": "next",
+    "dev:node": "nodemon index.js",
+    "dev:nodemon": "nodemon --inspect=0.0.0.0 index.js",
+    "build": "next build",
+    "start": "node .",
+    "start:docker": "docker run --rm -d -p 8888:8888 -p 9229:9229 -v ${PWD}:/usr/src/app -v /usr/src/app/node_modules next-express-hmr-fixed:latest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^7.0.0",
+    "express": "^4.16.4",
+    "next": "^8.0.3",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4"
+  },
+  "devDependencies": {
+    "babili-webpack-plugin": "^0.1.2",
+    "nodemon": "^1.18.10"
+  }
+}
