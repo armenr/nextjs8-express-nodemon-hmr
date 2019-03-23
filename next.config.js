@@ -1,5 +1,4 @@
 const BabiliPlugin = require('babili-webpack-plugin');
-const withPlugins = require('next-compose-plugins');
 
 module.exports = {
   publicRuntimeConfig: {

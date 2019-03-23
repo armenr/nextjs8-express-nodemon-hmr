@@ -9,6 +9,8 @@
     ".env.dist",
     ".env.docker",
     ".env.docker.dist",
-    "./node_modules"
+    "./node_modules",
+    "next.config.js",
+    "nodemon.json"
   ]
 }

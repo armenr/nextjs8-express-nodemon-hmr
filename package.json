@@ -6,7 +6,7 @@
   "scripts": {
     "setup": "npm install && (cp -n .env.dist .env || true)",
     "dev": "next",
-    "dev:node": "nodemon index.js",
+    "dev:nodemon": "nodemon index.js",
     "build": "next build",
     "start": "node ."
   },
@@ -23,5 +23,17 @@
   "devDependencies": {
     "babili-webpack-plugin": "^0.1.2",
     "nodemon": "^1.18.10"
+  },
+  "nodemonConfig": {
+    "verbose": false,
+    "ignore": [
+      "./.next",
+      "./frontend",
+      "./components",
+      "./pages",
+      ".gitignore",
+      ".env.dist",
+      "./node_modules"
+    ]
   }
 }

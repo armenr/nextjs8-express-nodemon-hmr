@@ -11,7 +11,7 @@ console.log({
 export default function Index() {
   return (
     <Layout>
-      <p>Hello Next.js!</p>
+      <p>Hello Next.js!!!</p>
     </Layout>
   );
 }
