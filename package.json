@@ -1,7 +1,7 @@
 {
   "name": "next-express-nodemon-hmr",
   "version": "1.0.0",
-  "description": "",
+  "description": "A minimal boilerplate for using NextJS8, a custom Express server + Nodemon live reloading, and working HMR via Next's webpack.",
   "main": "index.js",
   "scripts": {
     "setup": "npm install && (cp -n .env.dist .env || true)",
