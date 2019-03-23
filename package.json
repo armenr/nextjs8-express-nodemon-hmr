@@ -4,13 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "setup": "npm install && (cp -n .env.dist .env || true) && (cp -n .env.docker.dist .env.docker || true)",
+    "setup": "npm install && (cp -n .env.dist .env || true)",
     "dev": "next",
     "dev:node": "nodemon index.js",
-    "dev:nodemon": "nodemon --inspect=0.0.0.0 index.js",
     "build": "next build",
-    "start": "node .",
-    "start:docker": "docker run --rm -d -p 8888:8888 -p 9229:9229 -v ${PWD}:/usr/src/app -v /usr/src/app/node_modules next-express-hmr-fixed:latest"
+    "start": "node ."
   },
   "keywords": [],
   "author": "",
