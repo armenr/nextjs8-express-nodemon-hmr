@@ -118,6 +118,6 @@ We intend to add a standard Docker file and flow here. It will include the abili
 
 ## Credits/Maintainers
 
-Thanks to Erik Davtyan: [@erodactyl](https://github.com/erodactyl)
+Thanks to Erik Davtyan for helping me step back from the problem (I was deep into the HMR code built into Next's source): [@erodactyl](https://github.com/erodactyl)
 
 And I'll work to keep this thing updated: [@armenr](https://github.com/armenr)
